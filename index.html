@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="h-full w-full md:flex md:flex-row items-center justify-center md:bg-pale-blue"
+  >
+    <div
+      class="flex flex-col md:flex-row h-full w-full md:w-[700px] md:h-[500px] text-light-lavender bg-white md:rounded-3xl"
+    >
+      <div
+        class="relative top-0 left-0 w-full h-[350px] md:h-auto md:w-1/2 bg-gradient-to-b from-light-slate-blue via-light-royal-blue to-light-royal-blue rounded-b-3xl md:rounded-t-3xl border-b-2 flex flex-col items-center justify-evenly py-2 text-center"
+      >
+        <p class="text-light-lavender font-bold md:text-2xl">Your Result</p>
+        <div
+          class="flex flex-col items-center justify-center bg-gradient-to-b from-violet-blue to-persian-blue rounded-full w-32 h-32 md:w-48 md:h-48"
+        >
+          <span class="text-5xl md:text-7xl text-white font-bold">76</span
+          ><span class=" ">of 100</span>
+        </div>
+        <h2 class="text-white font-bold text-2xl md:text-4xl">Great</h2>
+        <p class="mx-auto w-3/4">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div
+        class="px-8 py-6 flex flex-col justify-between gap-6 w-full md:w-1/2"
+      >
+        <h2 class="text-dark-gray-blue font-bold text-3xl">Summary</h2>
+        <ul
+          class="w-full flex flex-col gap-4 text-dark-gray-blue text-opacity-60 font-bold"
+        >
+          <li
+            class="flex gap-2 w-full py-4 px-4 bg-light-red bg-opacity-5 rounded-lg"
+          >
+            <img class="" src="./assets/images/icon-reaction.svg" alt="" />
+            <span class="flex-1 text-light-red">Reaction</span>
+            <span
+              ><span class="text-dark-gray-blue text-opacity-100">80</span> /
+              100</span
+            >
+          </li>
+          <li
+            class="flex gap-2 w-full py-4 px-4 bg-orangey-yellow bg-opacity-5 rounded-lg"
+          >
+            <img class="" src="./assets/images/icon-memory.svg" alt="" />
+            <span class="flex-1 text-orangey-yellow">Memory</span>
+            <span
+              ><span class="text-dark-gray-blue text-opacity-100">92</span> /
+              100</span
+            >
+          </li>
+          <li
+            class="flex gap-2 w-full py-4 px-4 bg-green-teal bg-opacity-5 rounded-lg"
+          >
+            <img class="" src="./assets/images/icon-verbal.svg" alt="" />
+            <span class="flex-1 text-green-teal">Verbal</span>
+            <span
+              ><span class="text-dark-gray-blue text-opacity-100">91</span> /
+              100</span
+            >
+          </li>
+          <li
+            class="flex gap-2 w-full py-4 px-4 bg-cobalt-blue bg-opacity-5 rounded-lg"
+          >
+            <img class="" src="./assets/images/icon-visual.svg" alt="" />
+            <span class="flex-1 text-cobalt-blue">Visual</span>
+            <span
+              ><span class="text-dark-gray-blue text-opacity-100">72</span> /
+              100</span
+            >
+          </li>
+        </ul>
+        <button class="w-full bg-dark-gray-blue py-4 rounded-[3rem] text-white">
+          Continue
+        </button>
+      </div>
+    </div>
+    <div
+      class="w-2/3 md:absolute md:bottom-0 md:w-auto attribution mx-auto text-gray-400 p-3 text-sm"
+    >
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Mohamed Nassime Chehidi</a>.
+    </div>
+  </body>
+</html>
